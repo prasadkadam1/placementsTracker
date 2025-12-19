@@ -1,0 +1,3383 @@
+{
+  "meta": {
+    "project": "College Placement Tracker API",
+    "version": "1.1.0",
+    "region": "Maharashtra",
+    "note": "All images are from public dynamic image providers"
+  },
+  "students": [
+    {
+      "student_id": "STU10000",
+      "personal_info": {
+        "full_name": "Sneha Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/14.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 6.96,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10001",
+      "personal_info": {
+        "full_name": "Akash Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/59.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.66,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10002",
+      "personal_info": {
+        "full_name": "Pooja Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/26.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.62,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10003",
+      "personal_info": {
+        "full_name": "Sneha Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.99,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10004",
+      "personal_info": {
+        "full_name": "Akash Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/84.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.56,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10005",
+      "personal_info": {
+        "full_name": "Priya Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/89.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.79,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10006",
+      "personal_info": {
+        "full_name": "Rahul Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/87.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.24,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10007",
+      "personal_info": {
+        "full_name": "Pooja Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/18.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.84,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10008",
+      "personal_info": {
+        "full_name": "Rohit Pawar",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.7,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10009",
+      "personal_info": {
+        "full_name": "Rahul Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/8.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.07,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10010",
+      "personal_info": {
+        "full_name": "Akash Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.42,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10011",
+      "personal_info": {
+        "full_name": "Akash Kadam",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/86.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 6.66,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10012",
+      "personal_info": {
+        "full_name": "Sneha Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/61.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.84,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10013",
+      "personal_info": {
+        "full_name": "Pooja Joshi",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/74.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.32,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10014",
+      "personal_info": {
+        "full_name": "Kiran Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/55.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 6.76,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10015",
+      "personal_info": {
+        "full_name": "Rahul Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.52,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10016",
+      "personal_info": {
+        "full_name": "Neha Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/74.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.54,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10017",
+      "personal_info": {
+        "full_name": "Sneha Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/64.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.7,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10018",
+      "personal_info": {
+        "full_name": "Sneha Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.82,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10019",
+      "personal_info": {
+        "full_name": "Amit Joshi",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/47.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.3,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10020",
+      "personal_info": {
+        "full_name": "Amit Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/90.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.38,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10021",
+      "personal_info": {
+        "full_name": "Sneha Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/69.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.34,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10022",
+      "personal_info": {
+        "full_name": "Amit Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/62.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.17,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10023",
+      "personal_info": {
+        "full_name": "Vikas Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/61.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.84,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10024",
+      "personal_info": {
+        "full_name": "Rohit Joshi",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/55.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.45,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10025",
+      "personal_info": {
+        "full_name": "Akash Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.92,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10026",
+      "personal_info": {
+        "full_name": "Akash Pawar",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/20.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.53,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10027",
+      "personal_info": {
+        "full_name": "Rahul Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/87.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.73,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10028",
+      "personal_info": {
+        "full_name": "Priya Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/87.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.03,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10029",
+      "personal_info": {
+        "full_name": "Sneha Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.24,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10030",
+      "personal_info": {
+        "full_name": "Pooja Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.63,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10031",
+      "personal_info": {
+        "full_name": "Akash Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/22.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.59,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10032",
+      "personal_info": {
+        "full_name": "Kiran Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/64.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.31,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10033",
+      "personal_info": {
+        "full_name": "Pooja Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.44,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10034",
+      "personal_info": {
+        "full_name": "Rahul Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/91.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 9.2,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10035",
+      "personal_info": {
+        "full_name": "Sneha Pawar",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/52.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.89,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10036",
+      "personal_info": {
+        "full_name": "Rahul Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/71.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.44,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10037",
+      "personal_info": {
+        "full_name": "Vikas Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/51.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 9.42,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10038",
+      "personal_info": {
+        "full_name": "Sneha Pawar",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/63.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.36,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10039",
+      "personal_info": {
+        "full_name": "Sneha Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/62.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.52,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10040",
+      "personal_info": {
+        "full_name": "Vikas Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/95.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.0,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10041",
+      "personal_info": {
+        "full_name": "Rahul Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/59.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.61,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10042",
+      "personal_info": {
+        "full_name": "Kiran Kulkarni",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/80.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.96,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10043",
+      "personal_info": {
+        "full_name": "Priya Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/89.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.84,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10044",
+      "personal_info": {
+        "full_name": "Neha Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.57,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10045",
+      "personal_info": {
+        "full_name": "Amit Kulkarni",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/65.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.94,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10046",
+      "personal_info": {
+        "full_name": "Neha Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.42,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10047",
+      "personal_info": {
+        "full_name": "Kiran Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/66.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.3,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10048",
+      "personal_info": {
+        "full_name": "Pooja Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/20.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL001",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.86,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10049",
+      "personal_info": {
+        "full_name": "Kiran Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/25.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.85,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10050",
+      "personal_info": {
+        "full_name": "Vikas Kadam",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/54.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.11,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10051",
+      "personal_info": {
+        "full_name": "Pooja Joshi",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/82.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.01,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10052",
+      "personal_info": {
+        "full_name": "Amit Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/63.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.99,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10053",
+      "personal_info": {
+        "full_name": "Rohit Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/77.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.48,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10054",
+      "personal_info": {
+        "full_name": "Amit Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/94.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.14,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10055",
+      "personal_info": {
+        "full_name": "Sneha Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/92.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.87,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10056",
+      "personal_info": {
+        "full_name": "Akash Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/74.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.19,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10057",
+      "personal_info": {
+        "full_name": "Neha Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/25.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 9.27,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10058",
+      "personal_info": {
+        "full_name": "Akash Kulkarni",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/76.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.87,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10059",
+      "personal_info": {
+        "full_name": "Pooja Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/63.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.64,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10060",
+      "personal_info": {
+        "full_name": "Sneha Pawar",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/11.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.22,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10061",
+      "personal_info": {
+        "full_name": "Priya Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/43.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.92,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10062",
+      "personal_info": {
+        "full_name": "Pooja Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.82,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10063",
+      "personal_info": {
+        "full_name": "Priya Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/45.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 9.49,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10064",
+      "personal_info": {
+        "full_name": "Neha Kadam",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/50.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.52,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10065",
+      "personal_info": {
+        "full_name": "Akash Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/4.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.8,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10066",
+      "personal_info": {
+        "full_name": "Rahul Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/67.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 9.06,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10067",
+      "personal_info": {
+        "full_name": "Kiran Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/22.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.47,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10068",
+      "personal_info": {
+        "full_name": "Sneha Pawar",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/91.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.64,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10069",
+      "personal_info": {
+        "full_name": "Vikas Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/50.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.29,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10070",
+      "personal_info": {
+        "full_name": "Sneha Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.17,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10071",
+      "personal_info": {
+        "full_name": "Pooja Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL001",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.74,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10072",
+      "personal_info": {
+        "full_name": "Rahul Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/25.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.73,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10073",
+      "personal_info": {
+        "full_name": "Neha Jadhav",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/21.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL002",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 9.38,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10074",
+      "personal_info": {
+        "full_name": "Akash Deshmukh",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/65.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 6.89,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "C++"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10075",
+      "personal_info": {
+        "full_name": "Rahul Shinde",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/77.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.68,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10076",
+      "personal_info": {
+        "full_name": "Amit Pawar",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/63.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 9.31,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10077",
+      "personal_info": {
+        "full_name": "Vikas Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/65.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.79,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10078",
+      "personal_info": {
+        "full_name": "Rahul Joshi",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/33.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.07,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10079",
+      "personal_info": {
+        "full_name": "Akash Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/90.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.85,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Git",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10080",
+      "personal_info": {
+        "full_name": "Neha Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/4.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.97,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Git",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10081",
+      "personal_info": {
+        "full_name": "Priya Patil",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/46.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.4,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10082",
+      "personal_info": {
+        "full_name": "Rohit Joshi",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/92.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL0010",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.04,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10083",
+      "personal_info": {
+        "full_name": "Amit Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL009",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 8.76,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10084",
+      "personal_info": {
+        "full_name": "Priya Pawar",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/25.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.84,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10085",
+      "personal_info": {
+        "full_name": "Rohit Patil",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/69.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL007",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.99,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10086",
+      "personal_info": {
+        "full_name": "Rahul Kulkarni",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/51.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.82,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "GitHub"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10087",
+      "personal_info": {
+        "full_name": "Kiran Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/34.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.86,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10088",
+      "personal_info": {
+        "full_name": "Vikas Jadhav",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/49.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL006",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 6.69,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10089",
+      "personal_info": {
+        "full_name": "Rohit Kulkarni",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/64.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 7.73,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "JavaScript"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10090",
+      "personal_info": {
+        "full_name": "Rohit Kadam",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/80.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 8.48,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10091",
+      "personal_info": {
+        "full_name": "Akash Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/28.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 6.86,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Java"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10092",
+      "personal_info": {
+        "full_name": "Priya Shinde",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/66.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "ECE",
+        "degree": "B.Tech",
+        "graduation_year": 2024,
+        "cgpa": 9.02,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "JavaScript"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10093",
+      "personal_info": {
+        "full_name": "Pooja Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/43.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.18,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10094",
+      "personal_info": {
+        "full_name": "Sneha Pawar",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/72.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 7.18,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "C++",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10095",
+      "personal_info": {
+        "full_name": "Pooja Deshmukh",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/29.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL003",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 6.74,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "Python",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Docker",
+          "Postman"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10096",
+      "personal_info": {
+        "full_name": "Rohit Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/14.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL008",
+        "department": "IT",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.33,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Python"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10097",
+      "personal_info": {
+        "full_name": "Pooja Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/39.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "Mechanical",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 9.23,
+        "backlogs": 1
+      },
+      "skills": {
+        "programming": [
+          "Java",
+          "Python"
+        ],
+        "databases": [
+          "PostgreSQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Git"
+        ]
+      },
+      "placement_status": "Not Placed"
+    },
+    {
+      "student_id": "STU10098",
+      "personal_info": {
+        "full_name": "Akash Kadam",
+        "gender": "Female",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/women/34.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL005",
+        "department": "CSE",
+        "degree": "B.Tech",
+        "graduation_year": 2023,
+        "cgpa": 7.12,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "Java"
+        ],
+        "databases": [
+          "MySQL"
+        ],
+        "tools": [
+          "GitHub",
+          "Postman"
+        ]
+      },
+      "placement_status": "Placed"
+    },
+    {
+      "student_id": "STU10099",
+      "personal_info": {
+        "full_name": "Rahul Kadam",
+        "gender": "Male",
+        "date_of_birth": "2002-06-15",
+        "profile_image": "https://randomuser.me/api/portraits/men/43.jpg"
+      },
+      "academic_info": {
+        "college_id": "COL004",
+        "department": "EEE",
+        "degree": "B.Tech",
+        "graduation_year": 2025,
+        "cgpa": 8.94,
+        "backlogs": 0
+      },
+      "skills": {
+        "programming": [
+          "JavaScript",
+          "C++"
+        ],
+        "databases": [
+          "MongoDB"
+        ],
+        "tools": [
+          "Postman",
+          "Docker"
+        ]
+      },
+      "placement_status": "Placed"
+    }
+  ], 
+    "colleges": [
+    {
+      "college_id": "COL001",
+      "name": "Maharashtra Institute of Technology Pune",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2001,
+      "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "411409"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 440
+    },
+    {
+      "college_id": "COL002",
+      "name": "Maharashtra Institute of Technology Mumbai",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2005,
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "414657"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 371
+    },
+    {
+      "college_id": "COL003",
+      "name": "Maharashtra Institute of Technology Nashik",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2001,
+      "location": {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "419935"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 344
+    },
+    {
+      "college_id": "COL004",
+      "name": "Maharashtra Institute of Technology Kolhapur",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2011,
+      "location": {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "411520"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 315
+    },
+    {
+      "college_id": "COL005",
+      "name": "Maharashtra Institute of Technology Nagpur",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2000,
+      "location": {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "414582"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 419
+    },
+    {
+      "college_id": "COL006",
+      "name": "Maharashtra Institute of Technology Aurangabad",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2014,
+      "location": {
+        "city": "Aurangabad",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "411434"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 587
+    },
+    {
+      "college_id": "COL007",
+      "name": "Maharashtra Institute of Technology Satara",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2004,
+      "location": {
+        "city": "Satara",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "419928"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 514
+    },
+    {
+      "college_id": "COL008",
+      "name": "Maharashtra Institute of Technology Solapur",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2005,
+      "location": {
+        "city": "Solapur",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "418359"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 442
+    },
+    {
+      "college_id": "COL009",
+      "name": "Maharashtra Institute of Technology Sangli",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 1998,
+      "location": {
+        "city": "Sangli",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "413615"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 516
+    },
+    {
+      "college_id": "COL010",
+      "name": "Maharashtra Institute of Technology Jalgaon",
+      "type": "Private",
+      "affiliated_to": "SPPU",
+      "established_year": 2008,
+      "location": {
+        "city": "Jalgaon",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "415552"
+      },
+      "departments": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "Mechanical"
+      ],
+      "total_students": 379
+    }
+  ],
+  "companies": [
+    {
+      "company_id": "COM001",
+      "name": "TCS",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM002",
+      "name": "Infosys",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM003",
+      "name": "Wipro",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM004",
+      "name": "Capgemini",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM005",
+      "name": "Cognizant",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM006",
+      "name": "Accenture",
+      "industry": "IT Services"
+    },
+    {
+      "company_id": "COM007",
+      "name": "Amazon",
+      "industry": "Product Based"
+    },
+    {
+      "company_id": "COM008",
+      "name": "Flipkart",
+      "industry": "Product Based"
+    }
+  ],
+  "job_roles": [
+    {
+      "role_id": "ROLE001",
+      "title": "Software Engineer"
+    },
+    {
+      "role_id": "ROLE002",
+      "title": "System Engineer"
+    },
+    {
+      "role_id": "ROLE003",
+      "title": "Associate Developer"
+    },
+    {
+      "role_id": "ROLE004",
+      "title": "Data Analyst"
+    }
+  ]
+}
+

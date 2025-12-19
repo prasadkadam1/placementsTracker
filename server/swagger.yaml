@@ -1,0 +1,236 @@
+openapi: 3.0.0
+info:
+  title: College Placement Tracker API
+  description: >
+    REST API for managing students, colleges, companies and job roles
+    using JSON-based storage. Built for frontend-focused projects.
+  version: 1.1.0
+  contact:
+    name: Developer
+    email: developer@example.com
+
+servers:
+  - url: http://localhost:5000
+    description: Local development server
+
+tags:
+  - name: Students
+  - name: Colleges
+  - name: Companies
+  - name: Job Roles
+
+paths:
+
+  /api/students:
+    get:
+      tags: [Students]
+      summary: Get all students
+      responses:
+        200:
+          description: List of students
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Student"
+
+    post:
+      tags: [Students]
+      summary: Create a new student
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StudentInput"
+      responses:
+        201:
+          description: Student created successfully
+
+  /api/students/{studentId}:
+    get:
+      tags: [Students]
+      summary: Get student by ID
+      parameters:
+        - name: studentId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Student details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+        404:
+          description: Student not found
+
+    put:
+      tags: [Students]
+      summary: Update student by ID
+      parameters:
+        - name: studentId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StudentInput"
+      responses:
+        200:
+          description: Student updated successfully
+
+    delete:
+      tags: [Students]
+      summary: Delete student by ID
+      parameters:
+        - name: studentId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Student deleted successfully
+
+  /api/colleges:
+    get:
+      tags: [Colleges]
+      summary: Get all colleges
+      responses:
+        200:
+          description: List of colleges
+
+    post:
+      tags: [Colleges]
+      summary: Create a new college
+      responses:
+        201:
+          description: College created successfully
+
+  /api/companies:
+    get:
+      tags: [Companies]
+      summary: Get all companies
+      responses:
+        200:
+          description: List of companies
+
+    post:
+      tags: [Companies]
+      summary: Create a new company
+      responses:
+        201:
+          description: Company created successfully
+
+  /api/job-roles:
+    get:
+      tags: [Job Roles]
+      summary: Get all job roles
+      responses:
+        200:
+          description: List of job roles
+
+    post:
+      tags: [Job Roles]
+      summary: Create a new job role
+      responses:
+        201:
+          description: Job role created successfully
+
+components:
+  schemas:
+
+    Student:
+      type: object
+      properties:
+        student_id:
+          type: string
+          example: STU10001
+        personal_info:
+          $ref: "#/components/schemas/PersonalInfo"
+        academic_info:
+          $ref: "#/components/schemas/AcademicInfo"
+        skills:
+          $ref: "#/components/schemas/Skills"
+        placement_status:
+          type: string
+          example: Placed
+
+    StudentInput:
+      type: object
+      properties:
+        personal_info:
+          $ref: "#/components/schemas/PersonalInfo"
+        academic_info:
+          $ref: "#/components/schemas/AcademicInfo"
+        skills:
+          $ref: "#/components/schemas/Skills"
+        placement_status:
+          type: string
+          example: Not Placed
+
+    PersonalInfo:
+      type: object
+      properties:
+        full_name:
+          type: string
+          example: Sneha Patil
+        gender:
+          type: string
+          example: Female
+        date_of_birth:
+          type: string
+          format: date
+        profile_image:
+          type: string
+          format: uri
+
+    AcademicInfo:
+      type: object
+      properties:
+        college_id:
+          type: string
+          example: COL002
+        department:
+          type: string
+          example: ECE
+        degree:
+          type: string
+          example: B.Tech
+        graduation_year:
+          type: integer
+          example: 2025
+        cgpa:
+          type: number
+          format: float
+          example: 7.2
+        backlogs:
+          type: integer
+          example: 1
+
+    Skills:
+      type: object
+      properties:
+        programming:
+          type: array
+          items:
+            type: string
+          example: ["JavaScript", "Python"]
+        databases:
+          type: array
+          items:
+            type: string
+          example: ["PostgreSQL"]
+        tools:
+          type: array
+          items:
+            type: string
+          example: ["Git", "GitHub"]
